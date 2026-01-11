@@ -36,3 +36,4 @@
 # added for environment
 vendor
 .idea
+node_modules

@@ -14,7 +14,14 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 gem "pg"
 
+# Gemfile
+gem 'redis-actionpack'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
+
+  # for prettier-ruby
+  gem "prettier_print"
+  gem "syntax_tree"
 end

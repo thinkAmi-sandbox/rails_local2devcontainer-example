@@ -9,6 +9,4 @@
 #   end
 
 names = %w[奥州ロマン シナノゴールド シナノドルチェ]
-names.each do |name|
-  Apple.find_or_create_by!(name: name)
-end
+names.each { |name| Apple.find_or_create_by!(name: name) }
