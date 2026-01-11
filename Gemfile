@@ -24,4 +24,7 @@ group :development, :test do
   # for prettier-ruby
   gem "prettier_print"
   gem "syntax_tree"
+
+  # for .env
+  gem "dotenv-rails"
 end
