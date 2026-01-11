@@ -7,3 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+names = %w[奥州ロマン シナノゴールド シナノドルチェ]
+names.each do |name|
+  Apple.find_or_create_by!(name: name)
+end
