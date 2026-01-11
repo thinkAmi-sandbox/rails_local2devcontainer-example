@@ -1,24 +1,9 @@
-# README
+# rails_local2devcontainer-example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Tested Environments
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- mac
+- Docker Desktop 4.55.0
+- RubyMine 2025.3.1
+- Ruby 3.4.8
+- Rails 8.1.2
