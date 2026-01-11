@@ -17,5 +17,7 @@ class ApplesController < ApplicationController
     end
 
     @env_value = ENV["ENV_VALUE"]
+
+    @message = PrivateHelloGem.hello
   end
 end

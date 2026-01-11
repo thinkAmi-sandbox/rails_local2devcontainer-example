@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/thinkAmi-sandbox/private_hello_gem.git
+  revision: 023528b3adf6664dfbc2fe316b598d27c71a4ff9
+  specs:
+    private_hello_gem (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -264,6 +270,7 @@ DEPENDENCIES
   dotenv-rails
   pg
   prettier_print
+  private_hello_gem!
   propshaft
   puma (>= 5.0)
   rails (~> 8.1.2)

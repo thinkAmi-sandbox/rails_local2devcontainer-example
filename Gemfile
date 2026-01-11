@@ -14,8 +14,10 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 gem "pg"
 
-# Gemfile
+# session store 向けのgem
 gem 'redis-actionpack'
+
+gem "private_hello_gem", git: "https://github.com/thinkAmi-sandbox/private_hello_gem.git"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
