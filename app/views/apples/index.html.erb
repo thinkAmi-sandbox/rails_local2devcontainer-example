@@ -1,0 +1,21 @@
+<h2>Current time: <%= @current_time %></h2>
+
+<h2>Apples</h2>
+<ul>
+  <% @apples.each do |apple| %>
+    <li><%= apple.name %></li>
+  <% end %>
+</ul>
+
+<h2>Apples with price</h2>
+<ul>
+  <% @apples_with_price.each do |apple| %>
+    <li><%= apple[:name] %> / <%= apple[:price] %></li>
+  <% end %>
+</ul>
+
+<h2>Env value</h2>
+<p><%= @env_value %></p>
+
+<h2>Message</h2>
+<p><%= @message %></p>

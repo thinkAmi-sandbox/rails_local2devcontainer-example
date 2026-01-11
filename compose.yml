@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:18.1
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: apple_development
+    volumes:
+      # PostgreSQL18からデータの置き場所が変わったので注意
+      # https://forums.docker.com/t/mysterious-docker-issue-with-postgres/149898/9
+      - db_data:/var/lib/postgresql
+    ports:
+      - "15530:5432"
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "15531:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  db_data:
+  redis_data:
